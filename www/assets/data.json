@@ -1,0 +1,220 @@
+{
+    "pages": {
+        "behaviors": {
+            "title": "Behaviors",
+            "url": "/home",
+            "icon": "heart",
+            "content_image": "",
+            "content": ""
+        },
+        "founding_principles": {
+            "title": "Founding Principles",
+            "url": "/misc/founding_principles",
+            "icon": "paper",
+            "content_image": "",
+            "content": ""
+        },
+        "tips": {
+            "title": "Tips",
+            "url": "/misc/tips",
+            "icon": "information-circle-outline",
+            "content_image": "",
+            "content": ""
+        },
+        "events": {
+            "title": "Events",
+            "url": "/events",
+            "icon": "calendar",
+            "content_image": "",
+            "content": ""
+        },
+        "research": {
+            "title": "Evidence Based Research",
+            "url": "/misc/research",
+            "icon": "analytics",
+            "content_image": "",
+            "content": ""
+        },
+        "about": {
+            "title": "Who We Are",
+            "url": "/misc/about",
+            "icon": "people",
+            "content_image": "logo_beat.gif",
+            "content": "about.html"
+        },
+        "resources": {
+            "title": "Resources",
+            "url": "/misc/resources",
+            "icon": "book",
+            "content_image": "",
+            "content": ""
+        },
+        "settings": {
+            "title": "Settings",
+            "url": "/settings",
+            "icon": "cog",
+            "content_image": "",
+            "content": ""
+        }
+    },
+    "behaviors": {
+        "aggression": {
+            "title": "Aggression",
+            "image": "aggression.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.aggression.html",
+                    "preview": "Educators are most familiar with students displaying aggressive behaviors in the classroom setting. These typical behaviors can..."
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.aggression.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                            "title": "",
+                            "youtube_vid": "RkW9jT9vmyQ"
+                        },
+                        {
+                            "title": "",
+                            "youtube_vid": "C9VbKhISt-U"
+                        }
+                    ]
+                }
+            ]
+        },
+        "arguing": {
+            "title": "Arguing / Complaining",
+            "image": "arguing.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.arguing.html",
+                    "preview": "Students often use arguing, whining and complaining to avoid consequences. When students employ this avoidance tactic..."
+
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.arguing.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                        "title": "",
+                        "youtube_vid": "qeTOo4sRUaY"
+                    }]
+                }
+            ]
+        },
+        "disrespect": {
+            "title": "Disrespect",
+            "image": "disrespect.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.disrespect.html",
+                        "preview": "Disruptive behaviors among youth has evolved from a relatively minor concern to a significant reality. Students that are disrespectful require..."
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.disrespect.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                        "title": "",
+                        "youtube_vid": "gGGsqu2sLoc"
+                    }]
+                }
+            ]
+        },
+        "disruption": {
+            "title": "Disruption",
+            "image": "disruption.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.disruption.html",
+                    "preview": "Students display disruptive behaviors, which are among the greatest challenge teachers face. Disruptive behaviors..."
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.disruption.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                            "title": "",
+                            "youtube_vid": "_nkX9_zamRo"
+                        },
+                        {
+                            "title": "",
+                            "youtube_vid": "yeHiK327bwg"
+                        }
+                    ]
+                }
+            ]
+        },
+        "non_compliance": {
+            "title": "Non-Compliance",
+            "image": "non_compliance.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.non_compliance.html",
+                    "preview": ""
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.non_compliance.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                        "title": "",
+                        "youtube_vid": "1x0PDbyVcKk"
+                    }]
+                }
+            ]
+        },
+        "student_conflict": {
+            "title": "Student Conflict",
+            "image": "student_conflict.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.student_conflict.html",
+                    "preview": ""
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.student_conflict.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                        "title": "",
+                        "youtube_vid": "0tPADo2r4CE"
+                    }]
+                }
+            ]
+        },
+        "work_avoidance": {
+            "title": "Work Avoidance",
+            "image": "work_avoidance.jpg",
+            "details": [{
+                    "name": "Overview",
+                    "content": "overview.student_conflict.html",
+                    "preview": ""
+                },
+                {
+                    "name": "Strategies",
+                    "content": "strategies.student_conflict.html"
+                },
+                {
+                    "name": "Video",
+                    "videos": [{
+                        "title": "",
+                        "youtube_vid": "I1CbUzxXyXk"
+                    }]
+                }
+            ]
+        }
+    }
+}

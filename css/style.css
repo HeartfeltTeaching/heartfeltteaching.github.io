@@ -1,0 +1,76 @@
+body {
+    background: #222 url("../img/blackboard.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.intro {
+    width: 40%;
+    padding-right: 50px;
+    margin-top: -70px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.intro h2 {
+    margin-top: 0;
+    margin-bottom: 1.8em;
+}
+
+.button {
+    background: #3d6bf0;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.intro .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+}
+
+.button.buy {
+    background: #80b538;
+    margin-left: 5px;
+}
+
+.qrcode {
+    width: 20%;
+    margin-top: -20px;
+}
+
+p {
+    margin: 2.5em 0;
+    line-height: 1.5;
+}
+
+iframe {
+    border: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        display: block;
+        text-align: center;
+    }
+
+    .intro {
+        width: 90%;
+        padding: 0;
+        margin: 80px auto -100px;
+    }
+
+    .marvel-device {
+        top: 0px;
+    }
+}
