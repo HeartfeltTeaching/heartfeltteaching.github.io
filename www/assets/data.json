@@ -12,7 +12,7 @@
             "url": "/misc/founding_principles",
             "icon": "paper",
             "content_image": "",
-            "content": ""
+            "content": "founding_principles.html"
         },
         "tips": {
             "title": "Tips",
@@ -33,7 +33,7 @@
             "url": "/misc/research",
             "icon": "analytics",
             "content_image": "",
-            "content": ""
+            "content": "research.html"
         },
         "about": {
             "title": "Who We Are",
@@ -47,7 +47,7 @@
             "url": "/misc/resources",
             "icon": "book",
             "content_image": "",
-            "content": ""
+            "content": "resources.html"
         },
         "settings": {
             "title": "Settings",
