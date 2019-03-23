@@ -1,57 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./css/material-design-iconic-font.min.css">
-  <link rel="stylesheet" href="./css/font-awesome.min.css">
-  <link rel="stylesheet" href="./css/froala_editor.min.css">
-  <link rel="stylesheet" href="./css/froala_style.min.css">
-  <link rel="stylesheet" href="./css/plugins/fullscreen.min.css">
-  <link rel="stylesheet" href="./css/plugins/code_view.min.css">
-  <link rel="stylesheet" href="./css/codemirror.min.css">
-  <link rel="stylesheet" href="./css/plugins/special_characters.min.css">
-
-  <style>
-      body {
-          text-align: center;
-      }
-
-      section {
-        width: 81%;
-        margin: auto;
-        text-align: left;
-      }
-  </style>
 </head>
-<h1>Editor</h1>
-<p>Use the space below to enter and format your text. After you are done, press the &lt;/&gt; button and copy the code.</p>
 
-<body>
-  <section id="editor">
-      <div id='edit' style="margin-top: 30px;">
-    </div>
-  </section>
+<body style="text-align: center">
+  <h1>Editor</h1>
+  <p>Use the space below to enter and format your text. After you are done, press the &lt; &gt; button and copy the
+    code.</p>
+  <textarea></textarea>
 
-  <script type="text/javascript" src="./js/jquery.min.js"></script>
-  <script type="text/javascript" src="./js/codemirror.min.js"></script>
-  <script type="text/javascript" src="./js/xml.min.js"></script>
-  <script type="text/javascript" src="./js/froala_editor.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/fullscreen.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/code_beautifier.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/code_view.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/lists.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/link.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/paragraph_format.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/quote.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/font_size.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/font_family.min.js"></script>
-  <script type="text/javascript" src="./js/plugins/special_characters.min.js"></script>
-
+  <script src="./js/tinymce/tinymce.min.js"></script>
   <script>
-    $(function() {
-      $('#edit').froalaEditor()
+    tinymce.init({
+      selector: 'textarea',
+      height: 500,
+      menubar: false,
+      plugins: [
+        'advlist autolink lists link image charmap print preview anchor textcolor',
+        'searchreplace visualblocks code fullscreen',
+        'insertdatetime media table paste code help wordcount'
+      ],
+      toolbar: 'undo redo | formatselect | bold italic strikethrough forecolor backcolor | alignleft aligncenter alignright alignjustify | link | bullist numlist outdent indent | removeformat | code',
     });
   </script>
 </body>
+
 </html>
