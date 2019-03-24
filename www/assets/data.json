@@ -19,7 +19,7 @@
             "url": "/misc/tips",
             "icon": "information-circle-outline",
             "content_image": "",
-            "content": ""
+            "content": "tips.html"
         },
         "events": {
             "title": "Events",
