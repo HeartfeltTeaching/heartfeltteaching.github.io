@@ -1,5 +1,5 @@
 {
-    "version": "12",
+    "version": "03282019",
     "pages": {
         "behaviors": {
             "title": "Behaviors",
@@ -113,7 +113,7 @@
             "details": [{
                     "name": "Overview",
                     "content": "overview.disrespect.html",
-                        "preview": "Disruptive behaviors among youth has evolved from a relatively minor concern to a significant reality. Students that are..."
+                    "preview": "Disruptive behaviors among youth has evolved from a relatively minor concern to a significant reality. Students that are..."
                 },
                 {
                     "name": "Strategies",
