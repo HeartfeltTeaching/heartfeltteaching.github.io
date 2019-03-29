@@ -22,13 +22,6 @@
             "content_image": "",
             "content": "tips.html"
         },
-        "events": {
-            "title": "Events",
-            "url": "/events",
-            "icon": "calendar",
-            "content_image": "",
-            "content": ""
-        },
         "research": {
             "title": "Evidence Based Research",
             "url": "/misc/research",
