@@ -1,53 +1,46 @@
 {
-    "version": "032820191",
+    "version": "03282019",
     "pages": {
         "behaviors": {
             "title": "Behaviors",
             "url": "/home",
             "icon": "heart",
-            "content_image": "",
             "content": ""
         },
         "founding_principles": {
             "title": "Founding Principles",
             "url": "/misc/founding_principles",
             "icon": "paper",
-            "content_image": "",
             "content": "founding_principles.html"
         },
         "tips": {
             "title": "Tips",
             "url": "/misc/tips",
             "icon": "information-circle-outline",
-            "content_image": "",
             "content": "tips.html"
         },
         "research": {
             "title": "Evidence Based Research",
             "url": "/misc/research",
             "icon": "analytics",
-            "content_image": "",
             "content": "research.html"
         },
         "about": {
             "title": "Who We Are",
             "url": "/misc/about",
             "icon": "people",
-            "content_image": "logo_beat.gif",
             "content": "about.html"
         },
         "resources": {
             "title": "Resources",
             "url": "/misc/resources",
             "icon": "book",
-            "content_image": "",
             "content": "resources.html"
         },
         "settings": {
             "title": "Settings",
             "url": "/settings",
             "icon": "cog",
-            "content_image": "",
             "content": ""
         }
     },
