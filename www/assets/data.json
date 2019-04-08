@@ -1,12 +1,6 @@
 {
-    "version": "03282019",
+    "version": "04072019",
     "pages": {
-        "behaviors": {
-            "title": "Behaviors",
-            "url": "/home",
-            "icon": "heart",
-            "content": ""
-        },
         "founding_principles": {
             "title": "Founding Principles",
             "url": "/misc/founding_principles",
